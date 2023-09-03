@@ -2,40 +2,9 @@
 Training and Placement Cell Management
 Certainly, here are some basic project ideas for a Training and Placement (T&P) Cell Management System using different frameworks:
 
-**1. Spring Boot with Thymeleaf:**
-   - **Idea:** Build a web-based T&P management system using Spring Boot as the backend framework and Thymeleaf as the template engine for dynamic HTML rendering.
-   - **Features:** Student profile creation, job listings display, messaging between users, interview preparation resources.
-   - **Tech Stack:** Spring Boot, Thymeleaf, Spring Security, MySQL.
 
-**2. React and Node.js:**
-   - **Idea:** Develop a modern T&P system with a reactive user interface using React for frontend and Node.js for backend.
-   - **Features:** Responsive job listings, real-time messaging, student profiles, interview resources.
-   - **Tech Stack:** React, Node.js, Express, WebSocket, MongoDB.
+frame work not yet decideded
 
-**3. Django and Bootstrap:**
-   - **Idea:** Create a user-friendly T&P system using Django as the backend framework and Bootstrap for frontend design.
-   - **Features:** Student registration, company database, job listings, messaging interface.
-   - **Tech Stack:** Django, Bootstrap, PostgreSQL.
-
-**4. Angular and Firebase:**
-   - **Idea:** Build a dynamic T&P system using Angular for frontend and Firebase as the backend-as-a-service platform.
-   - **Features:** Real-time job listings, chat-based messaging, student profiles, placement drives management.
-   - **Tech Stack:** Angular, Firebase, TypeScript.
-
-**5. Flask and SQLite:**
-   - **Idea:** Develop a lightweight T&P system using Flask as the backend framework and SQLite for database storage.
-   - **Features:** Student registration, job listings, messaging, interview preparation resources.
-   - **Tech Stack:** Flask, SQLite, HTML, CSS.
-
-**6. Play Framework with Akka:**
-   - **Idea:** Create a reactive and scalable T&P system using Play Framework with Akka for both backend and asynchronous messaging.
-   - **Features:** Job listings display, real-time messaging, student profiles, analytics dashboard.
-   - **Tech Stack:** Play Framework, Akka, Java, HTML, CSS.
-
-**7. Ruby on Rails:**
-   - **Idea:** Develop a rapid T&P system using Ruby on Rails framework known for its convention over configuration.
-   - **Features:** Student profiles, job listings, messaging, interview preparation resources.
-   - **Tech Stack:** Ruby on Rails, PostgreSQL, HTML, CSS.
 
 These are just starting points for your project ideas. Depending on your familiarity with the frameworks and technologies, you can choose the one that aligns best with your skills and the project's requirements. Remember to consider the learning curve, project complexity, and feasibility when making your decision.
 
