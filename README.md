@@ -1,16 +1,5 @@
 # TNPCM
 Training and Placement Cell Management
-Certainly, here are some basic project ideas for a Training and Placement (T&P) Cell Management System using different frameworks:
-
-
-frame work not yet decideded
-
-
-These are just starting points for your project ideas. Depending on your familiarity with the frameworks and technologies, you can choose the one that aligns best with your skills and the project's requirements. Remember to consider the learning curve, project complexity, and feasibility when making your decision.
-
-
-
-Absolutely, here's a simpler division of work among three B.Tech 2nd-year students:
 
 **Person 1 - Backend Developer:**
 
