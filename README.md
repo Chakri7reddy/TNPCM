@@ -1,6 +1,5 @@
 # TNPCM
 Training and Placement Cell Management
-
 **Person 1 - Backend Developer:**
 
 - Set up the backend development environment using Spring Boot.
