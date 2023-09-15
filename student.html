@@ -3,6 +3,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <form>
@@ -20,26 +21,64 @@
     <label for="exampleInputPassword1" class="form-label">E-mail</label>
     <input type="password" class="form-control" id="exampleInputPassword1">
   </div>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Gender</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text"></div>
+  <div class="form-group">
+											<label for="inputState">Gender</label> <select
+											 class="form-control"
+												id="inputState" required="required">
+												<option selected>---Select---</option>
+												<option value="Active">Male</option>
+												<option value="Inactive">Female</option>
+
+        <option value="Inactive">Other</option>
+												</select>
   </div>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Course</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text"></div>
+  <div class="form-group">
+											<label for="inputState">Course</label> <select
+											 class="form-control"
+												id="inputState" required="required">
+												<option selected>---Select---</option>
+												<option value="Active">CSE</option>
+												<option value="Inactive">ECE</option>
+
+	<option value="Active">EEE</option>
+	
+	<option value="Active">Mechanical</option>
+
+	<option value="Active">Civil</option>
+												</select>
   </div>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Specilization</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text"></div>
+  <div class="form-group">
+											<label for="inputState">Specilization</label> <select
+											 class="form-control"
+												id="inputState" required="required">
+												<option selected>---Select---</option>
+												<option value="Active">AI&ML</option>
+												<option value="Inactive">Data Science</option>
+
+	<option value="Active">Cloud-Tech</option>
+
+	<option value="Active">Cyber-Security</option>
+
+	<option value="Active">Blockchain</option>
+
+	<option value="Active">Other</option>
+												</select>
   </div>
+
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Mobile No.</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     <div id="emailHelp" class="form-text"></div>
   </div>
+
+	<div class="form-group form-check">
+											<input type="checkbox" class="form-check-input" name="check"
+												id="exampleCheck1"> <label class="form-check-label"
+												for="exampleCheck1">Check</label>
+										</div>
+  <button type="submit"
+											class="btn btn-primary btn-block badge-pill">Submit</button>
+										</div>
   
 </form>
 </body>
