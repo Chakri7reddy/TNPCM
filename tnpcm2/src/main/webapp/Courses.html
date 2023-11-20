@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training and Placement Cell Management</title>
+    <style type="text/css">
+body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+section.course-entry {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1> Training and Placement Cell Management</h1>
+    </header>
+   
+    <section class="course-entry">
+        <h2>Course Entry Form</h2>
+        <form action="submit_course.php" method="POST">
+            <label for="course-name">Course Name:</label>
+            <input type="text" id="course-name" name="course-name" required>
+
+            <label for="course-duration">Course Duration (in months):</label>
+            <input type="number" id="course-duration" name="course-duration" required>
+
+            <label for="course-description">Course Description:</label>
+            <textarea id="course-description" name="course-description" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 Training and Placement Cell Management</p>
+    </footer>
+</body>
+</html>
