@@ -174,7 +174,7 @@ input[type="submit"] {
             animation: float 2s infinite;
         } 
 
-/* Add your additional CSS styles here */
+/* We can add our own CSS Style according to our wish */
 </style>
 </head>
 <body>
